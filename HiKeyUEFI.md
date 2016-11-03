@@ -75,8 +75,8 @@ Prerequisites:
 
 ```shell
 mkdir arm-tc arm64-tc
-tar --strip-components=1 -C ${PWD}/arm-tc -xf gcc-linaro-4.9-*-x86_64_aarch64-linux-gnu.tar.xz
-tar --strip-components=1 -C ${PWD}/arm64-tc -xf gcc-linaro-4.9-*-x86_64_arm-linux-gnueabihf.tar.xz
+tar --strip-components=1 -C ${PWD}/arm-tc -xf gcc-linaro-4.9-*-x86_64_arm-linux-gnueabihf.tar.xz
+tar --strip-components=1 -C ${PWD}/arm64-tc -xf gcc-linaro-4.9-*-x86_64_aarch64-linux-gnu.tar.xz
 export PATH="${PWD}/arm-tc/bin:${PWD}/arm64-tc/bin:$PATH"
 ```
 
